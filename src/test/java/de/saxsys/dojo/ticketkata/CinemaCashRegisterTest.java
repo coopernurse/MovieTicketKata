@@ -369,7 +369,7 @@ public class CinemaCashRegisterTest {
         int age = 12;
         boolean isStudent = false;
 
-        float expResult = 154.0F;
+        float expResult = 144.0F;
 
         CinemaCashRegister instance = new CinemaCashRegister();
         instance.startPurchase(runtime, day, isParquet, is3D);
@@ -395,7 +395,7 @@ public class CinemaCashRegisterTest {
         int age = 12;
         boolean isStudent = false;
 
-        float expResult = 120.00F;
+        float expResult = 111.00F;
 
         CinemaCashRegister instance = new CinemaCashRegister();
         instance.startPurchase(runtime, day, isParquet, is3D);
@@ -420,7 +420,7 @@ public class CinemaCashRegisterTest {
         int age = 12;
         boolean isStudent = false;
 
-        float expResult = 300.00F;
+        float expResult = 297.50F;
 
         CinemaCashRegister instance = new CinemaCashRegister();
         instance.startPurchase(runtime, day, isParquet, is3D);
