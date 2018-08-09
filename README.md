@@ -8,7 +8,7 @@ none of your coworkers are able to do the math required to sell movie tickets.
 You figure out that the fancy internet-enabled popcorn machine is running Java, so you grab
 the theater ticket pricing menu and get to work building your own cash register. Your 
 popcorn-powered cash register will need to calculate the total purchase price for each 
-customer.
+customer, and you'll need to work quickly... the line outside is growing!
 
 | Basic admission rates (regular weekday, 2D movie, &lt;=120 min, parquet) |            |
 | ------------------------------------------------------------------------ | ---------: |
@@ -25,6 +25,7 @@ customer.
 | Movie Day (Thursday, except for groups!)  | -$2.00 |
 | Weekends                                  | +$1.50 |
 | Loge                                      | +$2.00 |
+
 _*Exceptions are applied for each ticket purchased._
 
 **Customer satisfaction is important, so always charge the lowest possible price!**
