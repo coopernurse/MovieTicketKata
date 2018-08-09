@@ -1,13 +1,15 @@
 package de.saxsys.dojo.ticketkata;
 
 /**
- * Interface for the coding dojo TicketKata
+ * CinemaCashRegisterImpl implements the CinemaCashRegister interface
+ * to support multiple transactions for bundles of movie ticket sales.
  *
  * @author Marco Dierenfeldt
  * @version 0.1
+ * @see CinemaCashRegister
  */
-public interface TicketKataInterface {
-
+public class CinemaCashRegisterImpl implements CinemaCashRegister {
+  
     /**
      * (1) New customers arrive at your ticket booth and tell you
      * what movie they'd like to see (so keep it in mind ;-)
@@ -17,7 +19,9 @@ public interface TicketKataInterface {
      * @param isParquet     true if seating category is 'parquet' (and not 'loge')
      * @param is3D          true if the movie's shown in 3D
      */
-    void startPurchase(int runtime, Day day, boolean isParquet, boolean is3D);
+    public void startPurchase(int runtime, Day day, boolean isParquet, boolean is3D) {
+
+    }
 
     /**
      * (2) Add a ticket to the customers' bill
@@ -25,15 +29,17 @@ public interface TicketKataInterface {
      * @param age           the age of the ticket buyer in years
      * @param isStudent     true if the ticket buyer is a student
      */
-    void addTicket(int age, boolean isStudent);
+    public void addTicket(int age, boolean isStudent) {
+        
+    }
 
     /**
      * (3) Calculate the total admission for the current customer(s)
      *
      * @return  total in dollars
      */
-    float finishPurchase();
-}
+    public float finishPurchase() {
+        return 0.0f;
+    }
 
-/** Custom enum to represent the 7 days of the week */
-enum Day { SUN, MON, TUE, WED, THU, FRI, SAT; }
+}

@@ -33,7 +33,7 @@ public class CinemaCashRegisterTest {
     }
 
     /**
-     * Test of startPurchase method, of class CinemaCashRegister.
+     * Test of startPurchase method, of class CinemaCashRegisterImpl.
      */
     @Test
     public void testPurchaseNo3DParqetWeekdayNoGroupMidageNoStudent() {
@@ -47,7 +47,7 @@ public class CinemaCashRegisterTest {
 
         float expResult = 44.0F;
 
-        CinemaCashRegister instance = new CinemaCashRegister();
+        CinemaCashRegisterImpl instance = new CinemaCashRegisterImpl();
         instance.startPurchase(runtime, day, isParquet, is3D);
         instance.addTicket(age, isStudent);
         instance.addTicket(age, isStudent);
@@ -69,7 +69,7 @@ public class CinemaCashRegisterTest {
         
         float expResult = 56.0F;
 
-        CinemaCashRegister instance = new CinemaCashRegister();
+        CinemaCashRegisterImpl instance = new CinemaCashRegisterImpl();
         instance.startPurchase(runtime, day, isParquet, is3D);
         instance.addTicket(age, isStudent);
         instance.addTicket(age, isStudent);
@@ -91,7 +91,7 @@ public class CinemaCashRegisterTest {
 
         float expResult = 64.0F;
 
-        CinemaCashRegister instance = new CinemaCashRegister();
+        CinemaCashRegisterImpl instance = new CinemaCashRegisterImpl();
         instance.startPurchase(runtime, day, isParquet, is3D);
         instance.addTicket(age, isStudent);
         instance.addTicket(age, isStudent);
@@ -114,7 +114,7 @@ public class CinemaCashRegisterTest {
 
         float expResult = 56.0F;
 
-        CinemaCashRegister instance = new CinemaCashRegister();
+        CinemaCashRegisterImpl instance = new CinemaCashRegisterImpl();
         instance.startPurchase(runtime, day, isParquet, is3D);
         instance.addTicket(age, isStudent);
         instance.addTicket(age, isStudent);
@@ -137,7 +137,7 @@ public class CinemaCashRegisterTest {
 
         float expResult = 70.0F;
 
-        CinemaCashRegister instance = new CinemaCashRegister();
+        CinemaCashRegisterImpl instance = new CinemaCashRegisterImpl();
         instance.startPurchase(runtime, day, isParquet, is3D);
         instance.addTicket(age, isStudent);
         instance.addTicket(age, isStudent);
@@ -160,7 +160,7 @@ public class CinemaCashRegisterTest {
 
         float expResult = 50.0F;
 
-        CinemaCashRegister instance = new CinemaCashRegister();
+        CinemaCashRegisterImpl instance = new CinemaCashRegisterImpl();
         instance.startPurchase(runtime, day, isParquet, is3D);
         instance.addTicket(age, isStudent);
         instance.addTicket(age, isStudent);
@@ -184,7 +184,7 @@ public class CinemaCashRegisterTest {
 
         float expResult = 44.0F;
 
-        CinemaCashRegister instance = new CinemaCashRegister();
+        CinemaCashRegisterImpl instance = new CinemaCashRegisterImpl();
         instance.startPurchase(runtime, day, isParquet, is3D);
         instance.addTicket(age, isStudent);
         instance.addTicket(age, isStudent);
@@ -209,7 +209,7 @@ public class CinemaCashRegisterTest {
 
         float expResult = 45.0F;
 
-        CinemaCashRegister instance = new CinemaCashRegister();
+        CinemaCashRegisterImpl instance = new CinemaCashRegisterImpl();
         instance.startPurchase(runtime, day, isParquet, is3D);
         instance.addTicket(age, isStudent);
         instance.addTicket(age, isStudent);
@@ -233,7 +233,7 @@ public class CinemaCashRegisterTest {
 
         float expResult = 45.0F;
 
-        CinemaCashRegister instance = new CinemaCashRegister();
+        CinemaCashRegisterImpl instance = new CinemaCashRegisterImpl();
         instance.startPurchase(runtime, day, isParquet, is3D);
         instance.addTicket(age, isStudent);
         instance.addTicket(age, isStudent);
@@ -258,7 +258,7 @@ public class CinemaCashRegisterTest {
 
         float expResult = 44.5F;
 
-        CinemaCashRegister instance = new CinemaCashRegister();
+        CinemaCashRegisterImpl instance = new CinemaCashRegisterImpl();
         instance.startPurchase(runtime, day, isParquet, is3D);
         instance.addTicket(age, isStudent);
         instance.addTicket(age, isStudent);
@@ -283,7 +283,7 @@ public class CinemaCashRegisterTest {
 
         float expResult = 44.5F;
 
-        CinemaCashRegister instance = new CinemaCashRegister();
+        CinemaCashRegisterImpl instance = new CinemaCashRegisterImpl();
         instance.startPurchase(runtime, day, isParquet, is3D);
         instance.addTicket(age, isStudent);
         instance.addTicket(age, isStudent);
@@ -308,7 +308,7 @@ public class CinemaCashRegisterTest {
 
         float expResult = 138.0F;
 
-        CinemaCashRegister instance = new CinemaCashRegister();
+        CinemaCashRegisterImpl instance = new CinemaCashRegisterImpl();
         instance.startPurchase(runtime, day, isParquet, is3D);
         for (int i = 0; i < 23; i++) {
             instance.addTicket(age, isStudent);
@@ -329,7 +329,7 @@ public class CinemaCashRegisterTest {
 
         float expResult = 207.0F;
 
-        CinemaCashRegister instance = new CinemaCashRegister();
+        CinemaCashRegisterImpl instance = new CinemaCashRegisterImpl();
         instance.startPurchase(runtime, day, isParquet, is3D);
         for (int i = 0; i < 23; i++) {
             instance.addTicket(age, isStudent);
@@ -350,7 +350,7 @@ public class CinemaCashRegisterTest {
 
         float expResult = 207.0F;
 
-        CinemaCashRegister instance = new CinemaCashRegister();
+        CinemaCashRegisterImpl instance = new CinemaCashRegisterImpl();
         instance.startPurchase(runtime, day, isParquet, is3D);
         for (int i = 0; i < 23; i++) {
             instance.addTicket(age, isStudent);
@@ -371,7 +371,7 @@ public class CinemaCashRegisterTest {
 
         float expResult = 144.0F;
 
-        CinemaCashRegister instance = new CinemaCashRegister();
+        CinemaCashRegisterImpl instance = new CinemaCashRegisterImpl();
         instance.startPurchase(runtime, day, isParquet, is3D);
         for (int i = 0; i < 24; i++) {
             instance.addTicket(age, isStudent);
@@ -397,7 +397,7 @@ public class CinemaCashRegisterTest {
 
         float expResult = 111.00F;
 
-        CinemaCashRegister instance = new CinemaCashRegister();
+        CinemaCashRegisterImpl instance = new CinemaCashRegisterImpl();
         instance.startPurchase(runtime, day, isParquet, is3D);
         for (int i = 0; i < 18; i++) {
             instance.addTicket(age, isStudent);
@@ -422,7 +422,7 @@ public class CinemaCashRegisterTest {
 
         float expResult = 297.50F;
 
-        CinemaCashRegister instance = new CinemaCashRegister();
+        CinemaCashRegisterImpl instance = new CinemaCashRegisterImpl();
         instance.startPurchase(runtime, day, isParquet, is3D);
         for (int i = 0; i < 5; i++) {
             instance.addTicket(age, isStudent);
@@ -459,7 +459,7 @@ public class CinemaCashRegisterTest {
 
         float expResult = 70.00F;
 
-        CinemaCashRegister instance = new CinemaCashRegister();
+        CinemaCashRegisterImpl instance = new CinemaCashRegisterImpl();
         instance.startPurchase(runtime, day, isParquet, is3D);
         for (int i = 0; i < 5; i++) {
             instance.addTicket(age, isStudent);
