@@ -30,10 +30,11 @@ _*Exceptions are applied for each ticket purchased._
 
 **Customer satisfaction is important, so always charge the lowest possible price!**
 
-##### Additional Facts:
-* Each customer can purchase any number of tickets, but all the tickets will be for the 
-same movie.
-* There are no age requirements for any of the movies (this is a family-friendly theater).
+##### Truths You Can Assume:
+* Each customer can purchase any number of tickets, but all the tickets for that customer 
+will always be for the same movie.
+* A student can be any age (you're never too old to learn!)
+* There are no age requirements for any of the movies (this is a family-friendly theater!)
 
 
 
