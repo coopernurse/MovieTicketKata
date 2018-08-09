@@ -1,4 +1,4 @@
-# Movie Ticket Coding Kata
+# Movie Tickets Coding Kata
 
 It's your first day of work at your local movie theater and you've already got a crisis
 on your hands. The theater recently upgraded all of the point of sale terminals to a 
@@ -33,3 +33,8 @@ _*Exceptions are applied for each ticket purchased._
 * Each customer can purchase any number of tickets, but all the tickets will be for the 
 same movie.
 * There are no age requirements for any of the movies (this is a family-friendly theater).
+
+
+
+> Adapted from original "movie tickets coding kata" by Marco Dierenfeldt: 
+> http://codingkata.org/katas/unit/movie-tickets
