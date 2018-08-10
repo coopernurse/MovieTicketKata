@@ -35,6 +35,7 @@ _*Exceptions are applied for each ticket purchased._
 will always be for the same movie.
 * A student can be any age (you're never too old to learn!)
 * There are no age requirements for any of the movies (this is a family-friendly theater!)
+* There are infinite seats available for all movies, so nothing is ever sold out. 
 
 
 
