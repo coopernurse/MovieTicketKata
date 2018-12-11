@@ -35,7 +35,8 @@ _*Exceptions are applied for each ticket purchased._
 will always be for the same movie.
 * A student can be any age (you're never too old to learn!)
 * There are no age requirements for any of the movies (this is a family-friendly theater!)
-* There are infinite seats available for all movies, so nothing is ever sold out. 
+* There are infinite seats available for all movies, so nothing is ever sold out.
+* Customers must have at least 20 people physically present to qualify for the group rate (ex: 19 people cannot purchase 20 tickets just to get the cheaper total price)  
 
 
 
