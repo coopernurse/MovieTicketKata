@@ -8,10 +8,26 @@ import static org.junit.Assert.*;
  * @author Marco Dierenfeldt
  */
 public class CinemaCashRegisterTest {
-    
-    /**
-     * Test of startPurchase method, of class CinemaCashRegister.
-     */
+
+    @Test
+    public void testSingleTicketPurchase() {
+        System.out.println("testSingleTicketPurchase");
+        int runtime = 60;
+        Day day = Day.MON;
+        boolean isParquet = true;
+        boolean is3D = false;
+        int age = 30;
+        boolean isStudent = false;
+
+        float expResult = 11.0F;
+
+        CinemaCashRegister instance = new CinemaCashRegister();
+        instance.startPurchase(runtime, day, isParquet, is3D);
+        instance.addTicket(age, isStudent);
+        float result = instance.finishPurchase();
+        assertEquals(expResult, result, 0.0);
+    }
+
     @Test
     public void testPurchaseNo3DParquetWeekdayNoGroupMidageNoStudent() {
         System.out.println("testPurchaseNo3DParquetWeekdayNoGroupMidageNoStudent");
@@ -121,6 +137,31 @@ public class CinemaCashRegisterTest {
         instance.addTicket(age, isStudent);
         instance.addTicket(age, isStudent);
         
+        float result = instance.finishPurchase();
+        assertEquals(expResult, result, 0.0);
+    }
+
+    @Test
+    public void testPurchase3DLogeWeekendNoGroupMidageWithStudent() {
+        System.out.println("testPurchase3DLogeWeekendNoGroupMidageWithStudent");
+        int runtime = 90;
+        Day day = Day.SUN;
+        boolean isParquet = false;
+        boolean is3D = true;
+        int age = 23;
+        boolean isStudent = false;
+
+        float expResult = 84.5F;
+
+        CinemaCashRegister instance = new CinemaCashRegister();
+        instance.startPurchase(runtime, day, isParquet, is3D);
+        instance.addTicket(age, isStudent);
+        instance.addTicket(age, isStudent);
+        instance.addTicket(age, isStudent);
+        instance.addTicket(age, isStudent);
+        isStudent = true;
+        instance.addTicket(age, isStudent);
+
         float result = instance.finishPurchase();
         assertEquals(expResult, result, 0.0);
     }
